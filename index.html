@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presonal protfilo website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bb32c647e2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="protfilo/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#services">Serivces</a></li>
+                    <li><a href="#portfolio">portfoilo</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()" ></i>
+            </nav>
+            <div class="hearder-text">
+                <p> Java Developer</p>
+                <h1> Hi, i'm <span> Kumar</span> Pikilenka<br> from Hyderabad</h1>
+            </div>
+        </div>
+    </div>
+    <!-------------------------about me------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="protfilo/3M4A4795.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me</h1>
+                    <p> A Full Stack Developer is a versatile software engineer proficient 
+                        in both front-end and back-end development, as well as other aspects of 
+                        software development and deployment. Here's an overview of what a Full 
+                        Stack Developer typically does and the skills they need:</p>
+                        
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li> <span> UI/UX</span><br> Desinging web/App interfaces</li>
+                                <li><span> App Development</span><br> Web App development</li>
+                                <li><span> moblie Development</span><br> Moblie development</li>
+                               
+                        
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li> <span> 2024</span><br> Sri Chaitanya Technical Campus :-71.2%</li>
+                                <li><span>2020 </span><br>Saanvi jr College :-82.6%</li>
+                                <li><span>2018</span><br>Universal IIT Foundation school :-8.5%</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-------------------services----------------------------------------->
+    
+      <div id="services">
+       <div class="container">
+           <h1 class="sub-title">My services</h1>
+           <div class="services-list">
+            <div> 
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design </h2>
+                <p> Web design is the creation of websites and pages to reflect a company’s brand and 
+                    information and ensure a user-friendly experience.</p>
+                <a href="#">Learn more</a>
+                
+            </div>
+            <div> 
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI Design </h2>
+                <p> UI design focuses on creating visually appealing and intuitive interfaces that enhance user experiences. 
+                    It involves designin elements like buttons, menus, and layouts to ensure seamless 
+                    interaction with digital products. </p>
+                <a href="#">Learn more</a>
+                
+            </div>
+            <div> 
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design </h2>
+                <p> pp design focuses on creating visually appealing and user-friendly interfaces. 
+                    It involves combining user experience (UX) and user interface 
+                    (UI) elements to ensure a seamless and enjoyable user interaction. 
+                </p>
+                <a href="#">Learn more</a>
+                
+            </div>
+
+        </div>
+    </div>
+</div>
+<!---------------------------------------------------portfoilo--------------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="protfilo/carona.jpg">
+                <div class="layer">
+                    <h3>Carono Project</h3>
+                    <p>It shows about project content to visable the code  </p>
+                    <a href="https://github.com/kumarraj1729/corona-project.git"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="protfilo/walmartsales.jpg">
+                <div class="layer">
+                    <h3>walmartsales-project </h3>
+                    <p>It shows about project content to visable the code  </p>
+                    <a href="https://github.com/kumarraj1729/walmartsales-project.git"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="protfilo/solar.webp">
+                <div class="layer">
+                    <h3>Solar Project</h3>
+                    <p>It shows about project content to visable the code  </p>
+                    <a href="https://github.com/kumarraj1729/solarplants-project.git"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn"> See more</a>
+    </div>
+</div>
+<!-------------------------------------------------------contact----------------------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>kumarrajofficial5@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 7093150119</p>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Kumar Pikilenka Made with you <i class="fa-solid fa-heart"></i>.</p>
+    </div>
+</div>
+    <script>
+
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+            function openmenu() {
+                 sidemenu.style.right ="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+
+        
+    </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwMYuc26-hB_HHN9oGgBWNFz95p8gMIZWk7FtqDSGROaxATlKGhizpsdnLZZawTO6guLA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML ="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
